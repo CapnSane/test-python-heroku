@@ -5,8 +5,8 @@ import sched
 # def function():
 #     print("it's working!")
 
-# t = Timer(5, function)
-# t.start()
+# t = Timer(5, function) ## This runs every 5 seconds the function "function"
+# t.start() ## This part starts the t function
 
 
 event_schedule = sched.scheduler(time.time, time.sleep)
